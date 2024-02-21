@@ -4,6 +4,7 @@ COPY . .
 
 # Build frontend
 RUN cd frontend && npm install --legacy-peer-deps && npm run build && cd ..
+RUN apt install glibc-source 
 
 # Build backend
 RUN apt-get update
