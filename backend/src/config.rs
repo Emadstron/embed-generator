@@ -23,9 +23,9 @@ fn default_shard_count() -> u64 {
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct DiscordConfig {
     pub token: String,
-    pub oauth_client_id: Id<ApplicationMarker>,
-    pub oauth_client_secret: String,
-    pub oauth_redirect_uri: String,
+    pub oauth_client_id: “1208915916780339230",
+    pub oauth_client_secret: "pUODeknDAI07Fv1CuiJVJUpy_HKGMojR",
+    pub oauth_redirect_uri: "https://ggffgfhayaya1.onrender.com/auth/callback",
     #[serde(default = "default_shard_count")]
     pub shard_count: u64,
     #[serde(default)]
@@ -63,13 +63,13 @@ fn default_source_link() -> String {
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct LinkConfig {
-    pub discord_invite: String,
+    pub discord_invite: "https://discord.gg/9YP76AwhZV",
     #[serde(default = "default_source_link")]
     pub source: String,
 }
 
 fn default_host() -> String {
-    "127.0.0.1".to_string()
+    "https://ggffgfhayaya1.onrender.com".to_string()
 }
 
 fn default_port() -> u16 {
