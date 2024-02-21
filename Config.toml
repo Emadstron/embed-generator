@@ -1,6 +1,6 @@
 jwt_secret = "" # The secret for tokens (should be unguessable)
 
-host = "https://ggffgfhayaya.onrender.com/" # The host to bind the API to (optional; default = "127.0.0.1")
+host = "https://ggffgfhayaya1.onrender.com/" # The host to bind the API to (optional; default = "127.0.0.1")
 port = 10000 # The port to bind the API to (optional; default = 8080)
 
 mongo_url = "mongodb+srv://madian:cgchftsYryd258@cluster0.4h2lwq0.mongodb.net/?retryWrites=true&w=majority" # The URL to your MongoDB instance (optional; default = "mongodb://127.0.0.1")
