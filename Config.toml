@@ -8,7 +8,7 @@ redis_url = "redis://red-cnatn8tjm4es73c9d78g:6379" # The URL to your redis inst
 
 
 [discord]
-token = (process.env.EMBEDG_DISCORD__TOKEN) # the discord token of your bot
+token = (process.env.EMBEDG_DISCORD__TOKEN); # the discord token of your bot
 oauth_client_id = "1208915916780339230" # the client / application id of your bot
 oauth_client_secret = "pUODeknDAI07Fv1CuiJVJUpy_HKGMojR" # the oauth client secret of your bot
 oauth_redirect_uri = "https://GgFFGFhayaya.onrender.com/auth/callback" # the public url where the frontend will be available (must be added on Discord as the oauth redirect uri)
