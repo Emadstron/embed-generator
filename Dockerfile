@@ -4,8 +4,6 @@ COPY . .
 
 # Build frontend
 RUN cd frontend && npm install --legacy-peer-deps && npm run build && cd ..
-RUN apt-get remove nodejs
-RUN nvm install 16.15.1 
 
 # Build backend
 RUN apt-get update
