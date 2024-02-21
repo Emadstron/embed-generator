@@ -1,0 +1,23 @@
+jwt_secret = "" # The secret for tokens (should be unguessable)
+
+host = "https://ggffgfhayaya.onrender.com/" # The host to bind the API to (optional; default = "127.0.0.1")
+port = 10000 # The port to bind the API to (optional; default = 8080)
+
+mongo_url = "mongodb+srv://madian:cgchftsYryd258@cluster0.4h2lwq0.mongodb.net/?retryWrites=true&w=majority" # The URL to your MongoDB instance (optional; default = "mongodb://127.0.0.1")
+redis_url = "redis://red-cnatn8tjm4es73c9d78g:6379" # The URL to your redis instance (optional; default = "redis://127.0.0.1")
+
+
+[discord]
+token = "" # the discord token of your bot
+oauth_client_id = "1208915916780339230" # the client / application id of your bot
+oauth_client_secret = "pUODeknDAI07Fv1CuiJVJUpy_HKGMojR" # the oauth client secret of your bot
+oauth_redirect_uri = "https://GgFFGFhayaya.onrender.com/auth/callback" # the public url where the frontend will be available (must be added on Discord as the oauth redirect uri)
+shard_count = 1 # the shard count (optional; default = 1)
+
+[limits]
+max_messages_per_user = 25 # the max count of messages each user can have (optional; default = 25)
+max_message_size = 1000000 # the max size of a saved message (optional; default = ~1MB)
+
+[links]
+discord_invite = "https://discord.gg/9YP76AwhZV" # the invite url to your discord server
+source = "" # the url to the github page (optional)
